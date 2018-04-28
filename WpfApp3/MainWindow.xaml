@@ -1,0 +1,78 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="661.662" Width="834.44">
+    <Grid x:Name="number_u" Margin="0,0,2,7" MouseLeftButtonDown="number_u_MouseLeftButtonDown">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition Width="75*"/>
+            <ColumnDefinition Width="276*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Label_1" Content="1" HorizontalAlignment="Left" Height="28" Margin="10,114,0,0" VerticalAlignment="Top" Width="112" MouseDoubleClick="Label_1_MouseDoubleClick" OpacityMask="#FF030309" Background="#FFD4D4D4" Visibility="Hidden" />
+
+        <Label x:Name="Label_3" Content="3" HorizontalAlignment="Left" Height="28" Margin="10,170,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_3_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_2" Content="2" HorizontalAlignment="Left" Height="28" Margin="10,142,0,0" VerticalAlignment="Top" Width="112" Background="#FFD4D4D4" MouseDoubleClick="Label_2_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_4" Content="4" HorizontalAlignment="Left" Height="28" Margin="10,198,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_4_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_5" Content="5" HorizontalAlignment="Left" Height="28" Margin="10,226,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_5_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_6" Content="6" HorizontalAlignment="Left" Height="28" Margin="10,254,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_6_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_7" Content="7" HorizontalAlignment="Left" Height="28" Margin="10,282,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_7_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_8" Content="8" HorizontalAlignment="Left" Height="28" Margin="10,310,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_8_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_9" Content="9" HorizontalAlignment="Left" Height="28" Margin="10,338,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_9_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_10" Content="10" HorizontalAlignment="Left" Height="28" Margin="10,366,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_10_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_11" HorizontalAlignment="Left" Height="28" Margin="10,394,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" Content="11" MouseDoubleClick="Label_11_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_12" Content="12" HorizontalAlignment="Left" Height="28" Margin="10,422,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_12_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_13" Content="13" HorizontalAlignment="Left" Height="28" Margin="10,450,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_13_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_14" Content="14" HorizontalAlignment="Left" Height="28" Margin="10,478,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_14_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_15" Content="15" HorizontalAlignment="Left" Height="28" Margin="10,506,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_15_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="Label_16" Content="16" HorizontalAlignment="Left" Height="28" Margin="10,534,0,0" VerticalAlignment="Top" Width="112" BorderBrush="Black" Background="#FFD4D4D4" MouseDoubleClick="Label_16_MouseDoubleClick" Visibility="Hidden"/>
+        <Label Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="80,1,0,0" VerticalAlignment="Top" Width="27" Background="#FFAA4600" Visibility="Hidden"/>
+        <Label x:Name="lab1" Content="Крышки" Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="5,114,0,0" VerticalAlignment="Top" Width="97" FontSize="16" Visibility="Hidden"/>
+        <Label x:Name="lab1_1" Content="" Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="80,115,0,0" VerticalAlignment="Top" Width="44" Background="#FFAE3F0C" MouseDoubleClick="lab1_1_MouseDoubleClick_1" RenderTransformOrigin="0.583,-0.294" Visibility="Hidden"/>
+        <Label x:Name="lab2" Content="Корм" Grid.Column="1" HorizontalAlignment="Left" Height="33" Margin="10,147,0,0" VerticalAlignment="Top" Width="69" FontSize="16" Visibility="Hidden"/>
+        <Label x:Name="lab2_2" Content="" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="79,147,0,0" VerticalAlignment="Top" Width="45" Background="#FFFFF300" MouseDoubleClick="lab2_2_MouseDoubleClick" Visibility="Hidden"/>
+        <Button x:Name="Button1" Content="Обновить" Margin="383.2,462,10.6,91" Grid.Column="2" Click="Button1_Click" RenderTransformOrigin="0.56,-0.773" FontSize="24"/>
+        <Label x:Name="nomer_u" Content="Номер Улья" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="23" Margin="92,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textbox_TextChanged" Grid.ColumnSpan="2"/>
+        <Label x:Name="l2" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="25" Width="182" Content="Выбран улей №2" Visibility="Hidden"/>
+        <Button x:Name="select" Grid.ColumnSpan="2" Content="Выбрать" Grid.Column="1" HorizontalAlignment="Left" Margin="106,57,0,0" VerticalAlignment="Top" Width="75" Click="select_Click"/>
+        <Label x:Name="l3" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="25" Width="191" Content="Выбран улей №3" Visibility="Hidden"/>
+        <Label x:Name="lab3" Content="Донья" Grid.Column="1" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top" Height="33" Width="60" FontSize="16" Visibility="Hidden"/>
+        <Label x:Name="lab3_3" Content="" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="79,180,0,0" VerticalAlignment="Top" Width="45" Background="#FFAE64E2" MouseDoubleClick="lab3_3_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="lab4" Content="Шухлятка 8 рамок" Grid.Column="1" HorizontalAlignment="Left" Height="38" Margin="10,213,0,0" VerticalAlignment="Top" Width="150" FontSize="16" Grid.ColumnSpan="2" Visibility="Hidden"/>
+        <Label x:Name="lab4_4" Content="" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="15,213,0,0" VerticalAlignment="Top" Width="40" Background="#FF0FA82B" MouseDoubleClick="lab4_4_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="lab5" Content="Шухлятка 10 рамок" Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="10,246,0,0" VerticalAlignment="Top" Width="150" FontSize="16" Grid.ColumnSpan="2" Visibility="Hidden"/>
+        <Label x:Name="lab5_5" Content="" Grid.Column="2" HorizontalAlignment="Left" Height="29" Margin="15,251,0,0" VerticalAlignment="Top" Width="40" Background="#FF4CF1E2" MouseDoubleClick="lab5_5_MouseDoubleClick" Visibility="Hidden"/>
+        <Label x:Name="allert" Content="база данных обновлена" Grid.Column="2" HorizontalAlignment="Left" Margin="181,577,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="lab6" Content="Дата последнего осмотра" Grid.Column="2" HorizontalAlignment="Left" Margin="38,84,0,0" VerticalAlignment="Top" Height="25" Width="157"/>
+        <Label x:Name="lab7" Content="Дата следующего осмотра" Grid.Column="2" HorizontalAlignment="Left" Margin="38,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.737,0.308" Width="157"/>
+        <TextBox x:Name="lab7_7" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="195,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="lab7_7_TextChanged"/>
+        <Label x:Name="lab8" Content="Семейство" Grid.Column="2" HorizontalAlignment="Left" Margin="38,149,0,0" VerticalAlignment="Top" Width="157"/>
+        <TextBox x:Name="lab8_8" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="195,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="lab8_8_TextChanged"/>
+        <Label x:Name="lab9" Content="Расплод" Grid.Column="2" HorizontalAlignment="Left" Margin="38,180,0,0" VerticalAlignment="Top" Width="157"/>
+        <TextBox x:Name="lab9_9" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="195,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="lab9_9_TextChanged"/>
+        <TextBox x:Name="lab6_6" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="195,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="lab6_6_TextChanged_1"/>
+        <Label x:Name="lab10" Content="Итого" Grid.Column="2" HorizontalAlignment="Left" Margin="289,17,0,0" VerticalAlignment="Top" Width="47"/>
+        <TextBlock x:Name="lab10_10" Grid.Column="2" HorizontalAlignment="Left" Margin="341,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="224" Width="186" MouseMove="lab10_10_MouseMove"/>
+        <TextBox x:Name="lab11_11" Grid.Column="2" HorizontalAlignment="Left" Height="72" Margin="38,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Background="White" FontSize="16" Foreground="#FF910000" Visibility="Hidden"/>
+        <Label x:Name="lab0" Content="" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,86,0,0" VerticalAlignment="Top" Width="23" Background="#FFD4D4D4" Visibility="Hidden"/>
+        <Button x:Name="Button2" Content="Назад" Margin="383.2,539,10.6,22" Grid.Column="2" Click="Button2_Click" RenderTransformOrigin="0.56,-0.773" FontSize="24"/>
+        <Label x:Name="Comment_lab" Content="Комментарий" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="38,217,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox x:Name="comment" Grid.Column="2" HorizontalAlignment="Left" Height="205" Margin="195,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="comment_TextChanged"/>
+        <Label x:Name="no_color" Content="Label" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="38,17,0,0" VerticalAlignment="Top" Width="29" Background="#FFD4D4D4" Visibility="Hidden"/>
+        <Label x:Name="lab_condi" Content="Кондиционер" Grid.Column="1" HorizontalAlignment="Left" Height="39" Margin="10,282,0,0" VerticalAlignment="Top" Width="150" Grid.ColumnSpan="2" FontSize="16" Visibility="Hidden"/>
+        <Label x:Name="lab_condi_color" Content="" Grid.Column="2" HorizontalAlignment="Left" Height="36" Margin="15,285,0,0" VerticalAlignment="Top" Width="38" Background="#FF858585" MouseDoubleClick="lab_condi_color_MouseDoubleClick" Visibility="Hidden"/>
+        <CheckBox x:Name="attention" Content="Внимание" Grid.Column="2" HorizontalAlignment="Left" Height="22" Margin="55,56,0,0" VerticalAlignment="Top" Width="140" Checked="attention_Checked" MouseLeftButtonDown="attention_MouseLeftButtonDown"/>
+        <Label x:Name="color_click" Content="Label" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="53,17,0,0" VerticalAlignment="Top" Width="42" Background="#00000000" BorderBrush="Black" Foreground="Black" OpacityMask="Black" Opacity="0.8" Visibility="Hidden">
+            <Label.Effect>
+                <BlurEffect/>
+            </Label.Effect>
+        </Label>
+        <Border x:Name="att_border" BorderBrush="#FFE60000" BorderThickness="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="462" Margin="10,109,0,0" VerticalAlignment="Top" Width="122" Visibility="Hidden"/>
+        <Button x:Name="Print" Content="Распечатать" Grid.Column="2" HorizontalAlignment="Left" Margin="383.2,403,0,0" VerticalAlignment="Top" Width="159" Height="54" FontSize="18" Click="Print_Click"/>
+
+    </Grid>
+</Window>
