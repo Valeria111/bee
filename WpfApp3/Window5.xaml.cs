@@ -38,7 +38,7 @@ namespace WpfApp3
         int nomer = 0, attention = 0, sh_8_r = 0, sh_10_r = 0, condi = 0;
         string kr, krishki, att;
 
-        private void full_Click(object sender, RoutedEventArgs e)
+        private void full_Click(object sender, RoutedEventArgs e)//мяу
         {
             visible();
             full.Background = l.Background;
