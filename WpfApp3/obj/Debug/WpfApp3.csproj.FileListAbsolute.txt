@@ -49,3 +49,5 @@ C:\Users\Хозяин\Desktop\WpfApp3\WpfApp3\bin\Debug\MySql.Data.xml
 C:\Users\Хозяин\Desktop\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.CopyComplete
 C:\Users\Хозяин\Desktop\WpfApp3\WpfApp3\obj\Debug\Window5.g.cs
 C:\Users\Хозяин\Desktop\WpfApp3\WpfApp3\obj\Debug\Window5.baml
+C:\Users\Хозяин\Desktop\WpfApp3\WpfApp3\obj\Debug\UserControl1.g.cs
+C:\Users\Хозяин\Desktop\WpfApp3\WpfApp3\obj\Debug\UserControl1.baml

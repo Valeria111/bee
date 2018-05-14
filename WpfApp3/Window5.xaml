@@ -31,11 +31,87 @@
             <Label x:Name="label_1_Copy6" Content="" Width="91" BorderThickness="2" BorderBrush="#FF403636" Canvas.Left="450" Canvas.Top="126" Height="32" Background="#FFDFDFDF" Visibility="Hidden"/>
             <Label x:Name="label_1_Copy7" Content="" Width="91" BorderThickness="2" BorderBrush="#FF403636" Canvas.Left="162" Canvas.Top="32" Visibility="Hidden"/>
             <Label x:Name="name" Content="            Полный отчет по пасеке" Canvas.Left="162" Canvas.Top="1" Width="288" Visibility="Hidden"/>
+            <Label x:Name="lb" Content="Номер улья" Canvas.Top="42" Width="95" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF8C8C8C" BorderThickness="2">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="2" Y="2"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <TextBox x:Name="nomer_input" Height="27" Canvas.Left="100" TextWrapping="Wrap" Canvas.Top="45" Width="130" DataContextChanged="nomer_input_DataContextChanged" TextChanged="nomer_input_TextChanged"/>
+            <Label x:Name="title" Content="Полный отчет по улию №" Canvas.Left="100" Canvas.Top="6" Height="34" Width="313" FontSize="14" HorizontalContentAlignment="Center"/>
+            <Label x:Name="lb_Copy" Content="Семейство" Canvas.Top="72" Width="95" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF8C8C8C" BorderThickness="2">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="2" Y="2"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="lb_Copy1" Content="Расплод" Canvas.Top="102" Width="95" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF8C8C8C" BorderThickness="2">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="2" Y="2"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="lb_Copy2" Content="" Canvas.Top="72" Width="135" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF8C8C8C" BorderThickness="2" Canvas.Left="95">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="2" Y="2"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="lb_Copy3" Content="" Canvas.Top="102" Width="135" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF8C8C8C" BorderThickness="2" Canvas.Left="95">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="2" Y="2"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="lb_Copy4" Content="Комментарий" Canvas.Top="45" Width="105" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF8C8C8C" BorderThickness="2" Canvas.Left="244">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="2" Y="2"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="lb_Copy5" Content="" Canvas.Top="45" Width="192" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF8C8C8C" BorderThickness="2" Canvas.Left="349" Height="57">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="2" Y="2"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
         </Canvas>
         <Button x:Name="Button" Content="Печать" HorizontalAlignment="Left" Margin="471,242,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Button x:Name="full" Content="Пасека" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="79" Height="21" Click="full_Click" Background="#FFDDDDDD"/>
         <Button x:Name="unfull" Content="Улей" HorizontalAlignment="Left" Margin="94,10,0,0" VerticalAlignment="Top" Width="79" Click="Button_Click_1" Height="21"/>
         <Label x:Name="l" Content="Label" HorizontalAlignment="Left" Margin="288,10,0,0" VerticalAlignment="Top" Background="#FF96B7C5" Visibility="Hidden"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="685,41,-205,0" VerticalAlignment="Top" Width="100"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="627,138,-147,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="l2" Content="Button" HorizontalAlignment="Left" Height="21" Margin="455,10,0,0" VerticalAlignment="Top" Width="29" Visibility="Hidden"/>
+        <Button x:Name="back" Content="Назад" HorizontalAlignment="Left" Height="19" Margin="398,242,0,0" VerticalAlignment="Top" Width="68" Click="back_Click"/>
 
     </Grid>
 </Window>

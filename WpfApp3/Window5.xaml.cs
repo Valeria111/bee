@@ -13,6 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Data;
 using MySql.Data.MySqlClient;
+using System.Drawing;
+
+
 
 namespace WpfApp3
 {
@@ -29,7 +32,7 @@ namespace WpfApp3
 
       private void Button_Click(object sender, RoutedEventArgs e)
         {
-            PrintDialog printDialog = new PrintDialog();
+            System.Windows.Controls.PrintDialog printDialog = new System.Windows.Controls.PrintDialog();
             if (printDialog.ShowDialog() == true)
             {
                printDialog.PrintVisual(canvas, "Распечатываем элемент Canvas");
@@ -41,7 +44,9 @@ namespace WpfApp3
         private void full_Click(object sender, RoutedEventArgs e)//мяу
         {
             visible();
+            unvisible_two();
             full.Background = l.Background;
+            unfull.Background = l2.Background;
 
             connect_full_ul();
             connect_unfull_ul();
@@ -59,13 +64,74 @@ namespace WpfApp3
             label_1_Copy5.Content = condi;
 
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            unfull.Background = l.Background;
+            full.Background = l2.Background;
+            unvisible();
+            visible_two();
+
+        }
         public void visible()
         {
-            List<Label> labels_full = new List<Label> { name, label_1, label_2, label_3, label_1_Copy7, label_1_Copy1, label_1_Copy2, label_3_Copy, label_3_Copy1, label_3_Copy2, label_3_Copy3, label_3_Copy4, label_1_Copy, label_1_Copy3, label_1_Copy4, label_1_Copy6, label_1_Copy5 };
+
+            List<System.Windows.Controls.Label> labels_full = new List<System.Windows.Controls.Label> { name, label_1, label_2, label_3, label_1_Copy7, label_1_Copy1, label_1_Copy2, label_3_Copy, label_3_Copy1, label_3_Copy2, label_3_Copy3, label_3_Copy4, label_1_Copy, label_1_Copy3, label_1_Copy4, label_1_Copy6, label_1_Copy5 };
             for(int i=0; i<labels_full.Count; i++ )
             {
                 labels_full[i].Visibility = Visibility.Visible;
             }
+        }
+        public void unvisible()
+        {
+
+            List<System.Windows.Controls.Label> labels_full = new List<System.Windows.Controls.Label> { name, label_1, label_2, label_3, label_1_Copy7, label_1_Copy1, label_1_Copy2, label_3_Copy, label_3_Copy1, label_3_Copy2, label_3_Copy3, label_3_Copy4, label_1_Copy, label_1_Copy3, label_1_Copy4, label_1_Copy6, label_1_Copy5 };
+            for (int i = 0; i < labels_full.Count; i++)
+            {
+                labels_full[i].Visibility = Visibility.Hidden;
+            }
+        }
+        public void visible_two()
+        {
+            List<System.Windows.Controls.Label> labels_ulei = new List<System.Windows.Controls.Label> { title, lb, lb_Copy, lb_Copy1, lb_Copy2, lb_Copy3, lb_Copy4, lb_Copy5 };
+            for (int i = 0; i < labels_ulei.Count; i++)
+            {
+                labels_ulei[i].Visibility = Visibility.Visible;
+            }
+            nomer_input.Visibility = Visibility.Visible;
+        }
+        public void unvisible_two()
+        {
+            List<System.Windows.Controls.Label> labels_ulei = new List<System.Windows.Controls.Label> { title , lb , lb_Copy , lb_Copy1  , lb_Copy2, lb_Copy3, lb_Copy4, lb_Copy5 };
+            for (int i = 0; i < labels_ulei.Count; i++)
+            {
+                labels_ulei[i].Visibility = Visibility.Hidden;
+            }
+            nomer_input.Visibility = Visibility.Hidden;
+        }
+
+        private void nomer_input_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            MessageBox.Show(Convert.ToString(nomer_id()));
+        }
+
+        public int nomer_id()
+        {
+            try
+            {
+                int id = Convert.ToInt32(nomer_input.Text);
+
+                return (id);
+            }
+            finally
+            {
+                
+            }
+        }
+        private void nomer_input_DataContextChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+           
+            MessageBox.Show(nomer_input.Text);
         }
 
         public void connect_full_ul()
@@ -94,10 +160,6 @@ namespace WpfApp3
             }
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
 
         public void connect_unfull_ul()
         {
@@ -120,6 +182,15 @@ namespace WpfApp3
                 conn.Close();
             }
         }
+
+        private void back_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 Window1 = new Window1();
+            Window1.Show();
+            this.Close();
+            
+        }
+
         public void connect_attention()
         {
             string connectString = "server=localhost;user=root;database=diplom;password=;";
@@ -233,6 +304,12 @@ namespace WpfApp3
                 }
             }
             finally { conn.Close(); }
+
+        }
+        private void voidMath(int radplod, string date)
+        {
+            //int shag = 1;
+           // Graphics e = this.CreateCraphics 
 
         }
     }

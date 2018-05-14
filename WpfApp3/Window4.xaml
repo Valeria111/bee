@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
-        Title="Window4" Height="709.479" Width="1177.765" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" SizeToContent="WidthAndHeight" WindowState="Maximized">
+        Title="Window4" Height="709.479" Width="2052.965" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" SizeToContent="WidthAndHeight" WindowState="Maximized">
     <Grid Margin="10,10,3.6,18.4" ScrollViewer.CanContentScroll="True" ScrollViewer.HorizontalScrollBarVisibility="Visible" AutomationProperties.IsOffscreenBehavior="Onscreen" Grid.IsSharedSizeScope="True">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -36,13 +36,14 @@
 
         <ScrollViewer x:Name="scroll" Margin="0,91,16,0" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Height="488" VerticalAlignment="Top">
 
-            <ScrollViewer x:Name="scroll_Copy1" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Height="488" Width="1628">
+            <ScrollViewer x:Name="scroll_Copy1" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Height="488" Width="2000">
 
-                <Grid Height="514" Width="1628" HorizontalAlignment="Left" VerticalAlignment="Top">
-                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" Margin="955,5,-84,0" VerticalAlignment="Top" Width="82"/>
+                <Grid Height="514" Width="2579" HorizontalAlignment="Left" VerticalAlignment="Top">
                     <Label x:Name="Nomer_7" Content="" HorizontalAlignment="Left" Height="34" Margin="478,5,0,0" VerticalAlignment="Top" Width="79" FontSize="18" HorizontalContentAlignment="Center" Background="White" BorderBrush="#FF6A2727"/>
 
                     <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" Margin="478,5,0,0" VerticalAlignment="Top" Width="79"/>
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" Margin="955,5,-84,0" VerticalAlignment="Top" Width="82"/>
+
                     <Label x:Name="Nomer_1" Content="" HorizontalAlignment="Left" Height="27" Margin="5,10,0,0" VerticalAlignment="Top" Width="78" FontSize="18" HorizontalContentAlignment="Center" Background="White" BorderBrush="#FF6A2727"/>
                     <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="83" Margin="0,5,0,0"/>
                     <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" Margin="282,5,0,0" VerticalAlignment="Top" Width="81"/>
@@ -280,6 +281,126 @@
                     <Label x:Name="Label_13_15" Content="15" HorizontalAlignment="Left" Height="26" Margin="1167,403,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
                     <Label x:Name="Nomer_14" Content="" HorizontalAlignment="Left" Height="34" Margin="1167,5,0,0" VerticalAlignment="Top" Width="77" FontSize="18" HorizontalContentAlignment="Center"/>
                     <Label x:Name="Label_13_16" Content="16" HorizontalAlignment="Left" Height="28" Margin="1167,425,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" Margin="1271,8,0,0" VerticalAlignment="Top" Width="82"/>
+                    <Label x:Name="Label_14_1" Content="1" HorizontalAlignment="Left" Height="25" Margin="1271,45,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_2" Content="2" HorizontalAlignment="Left" Height="26" Margin="1271,68,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_3" Content="3" HorizontalAlignment="Left" Height="26" Margin="1271,91,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_4" Content="4" HorizontalAlignment="Left" Height="28" Margin="1271,117,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_5" Content="5" HorizontalAlignment="Left" Height="26" Margin="1271,145,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_6" Content="6" HorizontalAlignment="Left" Height="27" Margin="1271,171,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_7" Content="7" Height="26" Margin="1271,196,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16" HorizontalAlignment="Left"/>
+                    <Label x:Name="Label_14_8" Content="8" HorizontalAlignment="Left" Height="29" Margin="1271,220,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_9" Content="9" HorizontalAlignment="Left" Height="29" Margin="1271,249,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_10" Content="10" HorizontalAlignment="Left" Height="27" Margin="1271,275,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_11" Content="11" HorizontalAlignment="Left" Height="24" Margin="1271,302,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_12" Content="12" HorizontalAlignment="Left" Height="28" Margin="1271,326,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16"/>
+                    <Label x:Name="Label_14_13" Content="13" HorizontalAlignment="Left" Height="29" Margin="1271,354,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_14" Content="14" HorizontalAlignment="Left" Height="25" Margin="1271,380,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_14_15" Content="15" HorizontalAlignment="Left" Height="26" Margin="1271,403,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Nomer_15" Content="" HorizontalAlignment="Left" Height="34" Margin="1271,5,0,0" VerticalAlignment="Top" Width="77" FontSize="18" HorizontalContentAlignment="Center"/>
+                    <Label x:Name="Label_14_16" Content="16" HorizontalAlignment="Left" Height="28" Margin="1271,425,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Nomer_16" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" Margin="1377,8,0,0" VerticalAlignment="Top" Width="82" FontSize="18" HorizontalContentAlignment="Center"/>
+                    <Label x:Name="Label_15_1" Content="1" HorizontalAlignment="Left" Height="25" Margin="1377,45,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_2" Content="2" HorizontalAlignment="Left" Height="26" Margin="1377,68,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_3" Content="3" HorizontalAlignment="Left" Height="26" Margin="1377,91,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_4" Content="4" HorizontalAlignment="Left" Height="28" Margin="1377,117,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_5" Content="5" HorizontalAlignment="Left" Height="26" Margin="1377,145,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_6" Content="6" HorizontalAlignment="Left" Height="27" Margin="1377,171,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_7" Content="7" Height="26" Margin="1377,196,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16" HorizontalAlignment="Left"/>
+                    <Label x:Name="Label_15_8" Content="8" HorizontalAlignment="Left" Height="29" Margin="1377,220,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_9" Content="9" HorizontalAlignment="Left" Height="29" Margin="1377,249,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_10" Content="10" HorizontalAlignment="Left" Height="27" Margin="1377,275,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_11" Content="11" HorizontalAlignment="Left" Height="24" Margin="1377,302,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_12" Content="12" HorizontalAlignment="Left" Height="28" Margin="1377,326,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16"/>
+                    <Label x:Name="Label_15_13" Content="13" HorizontalAlignment="Left" Height="29" Margin="1377,354,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_14" Content="14" HorizontalAlignment="Left" Height="25" Margin="1377,380,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_15" Content="15" HorizontalAlignment="Left" Height="26" Margin="1377,403,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_15_16" Content="16" HorizontalAlignment="Left" Height="28" Margin="1377,425,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_1" Content="1" HorizontalAlignment="Left" Height="25" Margin="1481,45,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_2" Content="2" HorizontalAlignment="Left" Height="26" Margin="1481,68,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_3" Content="3" HorizontalAlignment="Left" Height="26" Margin="1481,91,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_4" Content="4" HorizontalAlignment="Left" Height="28" Margin="1481,117,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_5" Content="5" HorizontalAlignment="Left" Height="26" Margin="1481,145,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_6" Content="6" HorizontalAlignment="Left" Height="27" Margin="1481,171,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_7" Content="7" Height="26" Margin="1481,196,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16" HorizontalAlignment="Left"/>
+                    <Label x:Name="Label_16_8" Content="8" HorizontalAlignment="Left" Height="29" Margin="1481,220,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_9" Content="9" HorizontalAlignment="Left" Height="29" Margin="1481,249,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_10" Content="10" Height="27" Margin="1481,275,0,0" VerticalAlignment="Top" Background="#FFD4D4D4" FontSize="14" HorizontalAlignment="Left" Width="82"/>
+                    <Label x:Name="Label_16_11" Content="11" HorizontalAlignment="Left" Height="24" Margin="1481,302,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_12" Content="12" HorizontalAlignment="Left" Height="28" Margin="1481,326,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16"/>
+                    <Label x:Name="Label_16_13" Content="13" HorizontalAlignment="Left" Height="29" Margin="1481,354,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_14" Content="14" HorizontalAlignment="Left" Height="25" Margin="1481,380,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_15" Content="15" HorizontalAlignment="Left" Height="26" Margin="1481,403,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_16_16" Content="16" HorizontalAlignment="Left" Height="28" Margin="1481,425,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Nomer_17" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" Margin="1481,10,0,0" VerticalAlignment="Top" Width="82" HorizontalContentAlignment="Center" FontSize="18"/>
+                    <Label x:Name="Label_17_1" Content="1" HorizontalAlignment="Left" Height="25" Margin="1590,45,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_2" Content="2" HorizontalAlignment="Left" Height="26" Margin="1590,68,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_3" Content="3" HorizontalAlignment="Left" Height="26" Margin="1590,91,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_4" Content="4" HorizontalAlignment="Left" Height="28" Margin="1590,117,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_5" Content="5" HorizontalAlignment="Left" Height="26" Margin="1590,145,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_6" Content="6" HorizontalAlignment="Left" Height="27" Margin="1590,171,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_7" Content="7" Height="26" Margin="1590,196,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16" HorizontalAlignment="Left"/>
+                    <Label x:Name="Label_17_8" Content="8" HorizontalAlignment="Left" Height="29" Margin="1590,220,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_9" Content="9" HorizontalAlignment="Left" Height="29" Margin="1590,249,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_10" Content="10" Height="27" Margin="1590,275,0,0" VerticalAlignment="Top" Background="#FFD4D4D4" FontSize="14" HorizontalAlignment="Left" Width="82"/>
+                    <Label x:Name="Label_17_11" Content="11" HorizontalAlignment="Left" Height="24" Margin="1590,302,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_12" Content="12" HorizontalAlignment="Left" Height="28" Margin="1590,326,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16"/>
+                    <Label x:Name="Label_17_13" Content="13" HorizontalAlignment="Left" Height="29" Margin="1590,354,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_14" Content="14" HorizontalAlignment="Left" Height="25" Margin="1590,380,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_17_15" Content="15" HorizontalAlignment="Left" Height="26" Margin="1590,403,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Nomer_18" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" Margin="1590,10,0,0" VerticalAlignment="Top" Width="82" FontSize="18" HorizontalContentAlignment="Center"/>
+                    <Label x:Name="Label_17_16" Content="16" HorizontalAlignment="Left" Height="28" Margin="1590,429,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_1" Content="1" HorizontalAlignment="Left" Height="25" Margin="1694,45,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_2" Content="2" HorizontalAlignment="Left" Height="26" Margin="1694,68,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_3" Content="3" HorizontalAlignment="Left" Height="26" Margin="1694,91,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_4" Content="4" HorizontalAlignment="Left" Height="28" Margin="1694,117,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_5" Content="5" HorizontalAlignment="Left" Height="26" Margin="1694,145,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_6" Content="6" HorizontalAlignment="Left" Height="27" Margin="1694,171,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_7" Content="7" Height="26" Margin="1694,196,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16" HorizontalAlignment="Left"/>
+                    <Label x:Name="Label_18_8" Content="8" HorizontalAlignment="Left" Height="29" Margin="1694,220,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_9" Content="9" HorizontalAlignment="Left" Height="29" Margin="1694,249,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_10" Content="10" Height="27" Margin="1694,275,0,0" VerticalAlignment="Top" Background="#FFD4D4D4" FontSize="14" HorizontalAlignment="Left" Width="82"/>
+                    <Label x:Name="Label_18_11" Content="11" HorizontalAlignment="Left" Height="24" Margin="1694,302,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_12" Content="12" HorizontalAlignment="Left" Height="28" Margin="1694,326,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16"/>
+                    <Label x:Name="Label_18_13" Content="13" HorizontalAlignment="Left" Height="29" Margin="1694,354,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_14" Content="14" HorizontalAlignment="Left" Height="25" Margin="1694,380,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_18_15" Content="15" HorizontalAlignment="Left" Height="26" Margin="1694,403,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Nomer_19" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" Margin="1694,10,0,0" VerticalAlignment="Top" Width="82" HorizontalContentAlignment="Center" FontSize="18"/>
+                    <Label x:Name="Label_18_16" Content="16" HorizontalAlignment="Left" Height="28" Margin="1694,429,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_1" Content="1" HorizontalAlignment="Left" Height="25" Margin="1800,45,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_2" Content="2" HorizontalAlignment="Left" Height="26" Margin="1800,68,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_3" Content="3" HorizontalAlignment="Left" Height="26" Margin="1800,91,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_4" Content="4" HorizontalAlignment="Left" Height="28" Margin="1800,117,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_5" Content="5" HorizontalAlignment="Left" Height="26" Margin="1800,145,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_6" Content="6" HorizontalAlignment="Left" Height="27" Margin="1800,171,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_7" Content="7" Height="26" Margin="1800,196,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16" HorizontalAlignment="Left"/>
+                    <Label x:Name="Label_19_8" Content="8" HorizontalAlignment="Left" Height="29" Margin="1800,220,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_9" Content="9" HorizontalAlignment="Left" Height="29" Margin="1800,249,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_10" Content="10" Height="27" Margin="1800,275,0,0" VerticalAlignment="Top" Background="#FFD4D4D4" FontSize="14" HorizontalAlignment="Left" Width="82"/>
+                    <Label x:Name="Label_19_11" Content="11" HorizontalAlignment="Left" Height="24" Margin="1800,302,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_12" Content="12" HorizontalAlignment="Left" Height="28" Margin="1800,326,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16"/>
+                    <Label x:Name="Label_19_13" Content="13" HorizontalAlignment="Left" Height="29" Margin="1800,354,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_14" Content="14" HorizontalAlignment="Left" Height="25" Margin="1800,380,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_19_15" Content="15" HorizontalAlignment="Left" Height="26" Margin="1800,403,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Nomer_20" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" Margin="1800,10,0,0" VerticalAlignment="Top" Width="82" FontSize="18" HorizontalContentAlignment="Center"/>
+                    <Label x:Name="Label_19_16" Content="16" HorizontalAlignment="Left" Height="28" Margin="1800,429,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_1" Content="1" HorizontalAlignment="Left" Height="25" Margin="1904,45,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_2" Content="2" HorizontalAlignment="Left" Height="26" Margin="1904,68,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_3" Content="3" HorizontalAlignment="Left" Height="26" Margin="1904,91,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_4" Content="4" HorizontalAlignment="Left" Height="28" Margin="1904,117,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_5" Content="5" HorizontalAlignment="Left" Height="26" Margin="1904,145,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_6" Content="6" HorizontalAlignment="Left" Height="27" Margin="1904,171,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_7" Content="7" Height="26" Margin="1904,196,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16" HorizontalAlignment="Left"/>
+                    <Label x:Name="Label_20_8" Content="8" HorizontalAlignment="Left" Height="29" Margin="1904,220,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_9" Content="9" HorizontalAlignment="Left" Height="29" Margin="1904,249,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_10" Content="10" Height="27" Margin="1904,275,0,0" VerticalAlignment="Top" Background="#FFD4D4D4" FontSize="14" HorizontalAlignment="Left" Width="82"/>
+                    <Label x:Name="Label_20_11" Content="11" HorizontalAlignment="Left" Height="24" Margin="1904,302,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_12" Content="12" HorizontalAlignment="Left" Height="28" Margin="1904,326,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="16"/>
+                    <Label x:Name="Label_20_13" Content="13" HorizontalAlignment="Left" Height="29" Margin="1904,354,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_14" Content="14" HorizontalAlignment="Left" Height="25" Margin="1904,380,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Label_20_15" Content="15" HorizontalAlignment="Left" Height="26" Margin="1904,403,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
+                    <Label x:Name="Nomer_21" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" Margin="1904,10,0,0" VerticalAlignment="Top" Width="82" HorizontalContentAlignment="Center" FontSize="18"/>
+                    <Label x:Name="Label_20_16" Content="16" HorizontalAlignment="Left" Height="28" Margin="1904,429,0,0" VerticalAlignment="Top" Width="82" Background="#FFD4D4D4" FontSize="14"/>
                 </Grid>
 
 
